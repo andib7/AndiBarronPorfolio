@@ -1,15 +1,21 @@
 {
   "files": {
     "main.css": "/AndiBarronPorfolio/static/css/main.4998f3a1.css",
-    "main.js": "/AndiBarronPorfolio/static/js/main.d2571824.js",
+    "main.js": "/AndiBarronPorfolio/static/js/main.f60bdb2c.js",
     "static/js/453.63e213bf.chunk.js": "/AndiBarronPorfolio/static/js/453.63e213bf.chunk.js",
+    "static/media/CCCgame.png": "/AndiBarronPorfolio/static/media/CCCgame.ec55f8b7cf5db02f0211.png",
+    "static/media/NutritionPage.png": "/AndiBarronPorfolio/static/media/NutritionPage.0e1f531fd90c434f8c22.png",
+    "static/media/Parrot.png": "/AndiBarronPorfolio/static/media/Parrot.0f081e854f21c82cd56b.png",
+    "static/media/Sheep.png": "/AndiBarronPorfolio/static/media/Sheep.403c41042269e3148d1e.png",
+    "static/media/Robot.png": "/AndiBarronPorfolio/static/media/Robot.d447c34c5e7a3abbe7b2.png",
+    "static/media/Ghost.png": "/AndiBarronPorfolio/static/media/Ghost.b16e7b6c380cff6e5d54.png",
     "index.html": "/AndiBarronPorfolio/index.html",
     "main.4998f3a1.css.map": "/AndiBarronPorfolio/static/css/main.4998f3a1.css.map",
-    "main.d2571824.js.map": "/AndiBarronPorfolio/static/js/main.d2571824.js.map",
+    "main.f60bdb2c.js.map": "/AndiBarronPorfolio/static/js/main.f60bdb2c.js.map",
     "453.63e213bf.chunk.js.map": "/AndiBarronPorfolio/static/js/453.63e213bf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4998f3a1.css",
-    "static/js/main.d2571824.js"
+    "static/js/main.f60bdb2c.js"
   ]
 }

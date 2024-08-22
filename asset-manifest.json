@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AndiBarronPorfolio/static/css/main.4998f3a1.css",
+    "main.js": "/AndiBarronPorfolio/static/js/main.d2571824.js",
+    "static/js/453.63e213bf.chunk.js": "/AndiBarronPorfolio/static/js/453.63e213bf.chunk.js",
+    "index.html": "/AndiBarronPorfolio/index.html",
+    "main.4998f3a1.css.map": "/AndiBarronPorfolio/static/css/main.4998f3a1.css.map",
+    "main.d2571824.js.map": "/AndiBarronPorfolio/static/js/main.d2571824.js.map",
+    "453.63e213bf.chunk.js.map": "/AndiBarronPorfolio/static/js/453.63e213bf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4998f3a1.css",
+    "static/js/main.d2571824.js"
+  ]
+}

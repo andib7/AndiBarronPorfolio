@@ -3,6 +3,7 @@ import Home from './components/Home';
 import Contact from './components/Contact';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import SlidingPanel from './components/SlidingPanel';
 import './App.css';
 
 function App() {
@@ -28,18 +29,15 @@ function App() {
     <div className="App">
       <div className={`main-content ${activePanel ? `shrinked-${activePanel}` : ''}`}>
         <Home onButtonClick={handleButtonClick} />
-        <div className={`slide-in left ${activePanel === 'projects' ? 'visible' : ''}`}>
-          <button className={`close-button ${activePanel === 'projects' ? 'visible' : ''}`} onClick={() => handleButtonClick('projects')}>
-            Close Projects
-          </button>
+        <SlidingPanel isOpen={activePanel === 'projects'} onClose={() => handleButtonClick('projects')} position="left">
           <Projects onProjectHover={setHoveredProject} />
-        </div>
+        </SlidingPanel>
         <div className={`slide-in left ${showSkills && activePanel === 'projects' ? 'visible skills' : ''}`}>
           <Skills project={hoveredProject} />
         </div>
-        <div className={`slide-in right ${activePanel === 'contact' ? 'visible' : ''}`}>
+        <SlidingPanel isOpen={activePanel === 'contact'} onClose={() => handleButtonClick('contact')} position="right">
           <Contact onButtonClick={() => handleButtonClick('contact')} />
-        </div>
+        </SlidingPanel>
       </div>
     </div>
   );

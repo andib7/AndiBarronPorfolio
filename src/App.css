@@ -25,12 +25,12 @@ body {
 }
 
 .main-content.shrinked-contact {
-  transform: translateX(-50vw); /* Move to the right to make room for sliding content from the left */
+  transform: translateX(0vw); /* Move to the right to make room for sliding content from the left */
 }
 
 /* Shrink Home area when Contact is active */
 .main-content.shrinked-contact #home {
-  transform: translateX(25vw); /* Scale down Home area and move it to fit in the right half */
+  transform: translateX(-25vw); /* Scale down Home area and move it to fit in the right half */
   transform-origin: left center; /* Ensure scaling and positioning happens from the left center */
 }
 
@@ -62,7 +62,7 @@ body {
 /* Sliding effect from right */
 .slide-in.right {
   right: 0;
-  transform: translateX(50vw); /* Start offscreen to the right */
+  transform: translateX(-50vw); /* Start offscreen to the right */
 }
 
 /* Slide-in animations */
@@ -75,7 +75,7 @@ body {
 }
 
 .main-content.shrinked-contact .slide-in.right {
-  transform: translateX(50vw); /* Slide in from the right */
+  transform: translateX(-100vw); /* Slide in from the right */
 }
 
 /* Close button */

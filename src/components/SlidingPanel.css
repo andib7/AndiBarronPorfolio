@@ -1,0 +1,50 @@
+.sliding-panel {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 50vw;
+  background-color: #2b2b2b;
+  color: #e0e0e0;
+  overflow-y: auto;
+  padding: 2rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  z-index: 1000;
+  opacity: 0;
+}
+
+.slide-in-left {
+  left: 0;
+  transform: translateX(-100%);
+}
+
+.slide-in-right {
+  right: 0;
+  transform: translateX(100%);
+}
+
+.sliding-panel.active {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.close-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: #ff7043;
+  color: #e0e0e0;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.close-button.visible {
+  opacity: 1;
+}

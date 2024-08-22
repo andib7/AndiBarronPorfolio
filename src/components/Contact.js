@@ -15,7 +15,7 @@ function Contact() {
         <li>Email: <a href="mailto:andibarron7@gmail.com">andibarron7@gmail.com</a></li>
         <li>Phone: <a href="tel:+12096664175">+1 (209) 666-4175</a></li>
       </ul>
-      <a href="Andi Barron - Resume June 2024.pdf" download className="button download-button">
+      <a href="Andi Barron - Resume August 2024.pdf" download className="button download-button">
         Download Resume
       </a>
     </div>

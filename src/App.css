@@ -255,68 +255,19 @@ header h1 {
   font-size: 2rem;
 }
 
-/* Cover Page Styles */
-.cover-page {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 85vh; /* Full viewport height */
-  text-align: center;
-  background-color: #2b2b2b;
-  color: #e0e0e0;
-  padding: 0 1rem; /* Adjusted padding to prevent overflow */
-  box-sizing: border-box; /* Include padding and border in element's total width and height */
-}
-
-.cover-page .profile-pic {
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  margin-bottom: 1rem;
-}
-
-.cover-page h1 {
-  font-size: 3rem;
-  margin: 0.5rem 0;
-}
-
-.cover-page h2 {
-  font-size: 1.8rem;
-  color: #00b8a9;
-  margin: 0.5rem 0;
-}
-
-.cover-page p {
-  font-size: 1.2rem;
-  color: #b0b0b0;
-  margin-bottom: 2rem;
-}
-
-.cover-page .button {
-  margin: 0.5rem;
-  padding: 0.5rem 1rem;
-  color: #e0e0e0;
-  background-color: #00b8a9;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.cover-page .button:hover {
-  background-color: #ff7043;
-}
-
 /* Contact Page Styles */
+.contact-page {
+  text-align: center; /* Center all child elements */
+  padding: 1rem; /* Consistent padding */
+}
+
 .contact-page h2 {
-  text-align: center;
   font-size: 2.5rem;
   margin-bottom: 1rem;
   color: #00b8a9; /* Highlight color */
 }
 
+/* Social Links Styles */
 .social-links {
   display: flex;
   flex-direction: column;
@@ -344,11 +295,13 @@ header h1 {
   transform: scale(1.1); /* Slightly enlarge on hover */
 }
 
+/* Contact Info Styles */
 .contact-info {
   list-style: none;
   padding: 0;
-  text-align: center;
-  margin-bottom: 1.5rem;
+  text-align: center; /* Center the list items */
+  margin: 0 auto; /* Center the container */
+  max-width: 300px; /* Ensure the container doesn’t stretch too wide */
 }
 
 .contact-info li {

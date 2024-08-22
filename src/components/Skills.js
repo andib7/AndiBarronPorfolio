@@ -3,7 +3,6 @@ import React from 'react';
 function Skills({ project }) {
   return (
     <div className="skills-container">
-      <h2>Skills</h2>
       <div className="skills-list">
         {project ? (
           project.map((skill, index) => (
